@@ -16,9 +16,11 @@ h2 {
 }
 
 .color-container {
-    width: 100%;
-    display: block;
+    /* width: 100%; */
+    display: flex;
     font-weight: 700;
+    /* text-align: center; */
+    justify-content: space-evenly;
 }
 
 .silver {
@@ -43,8 +45,8 @@ h2 {
 
 .color-panel {
     display: inline-block;
-    width: 32%;
-    margin: 15px auto;
+    width: 300px;
+    /* margin: 0 1%; */
     text-align: center;
     min-height: 100px;
 }
