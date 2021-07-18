@@ -1,0 +1,105 @@
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0 10%;
+}
+
+section {
+    border: 2px solid green;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+h2 {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+
+.color-container {
+    width: 100%;
+    display: block;
+    font-weight: 700;
+}
+
+.silver {
+    background-color: #C0C0C0;
+    color: #000;
+}
+
+.gray {
+    background-color: #808080;
+    color: #000;
+}
+
+.maroon {
+    background-color: #800000;
+    color: #FFF;
+}
+
+.aqua {
+    background-color: #00FFFF;
+    color: #000;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    margin: 15px auto;
+    text-align: center;
+    min-height: 100px;
+}
+
+p{
+    display: block;
+    /* text-align: left; */
+}
+
+h3.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+    /* text-align: left; */
+}
+.Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.Nunito{
+    font-family: 'Nunito', sans-serif;
+}
+.regular {
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.font-panel {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+
+.font-container {
+    width: 100%; 
+    display: block;
+}
+
+.text-panel h1 {
+    font-weight: 900;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-panel h2 {
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-panel p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
